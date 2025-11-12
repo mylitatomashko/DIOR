@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зворотній зв’язок</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+
+
+<body>
+    <nav> 
+        <a href="index.html"> Головна сторінка </a> 
+        <a href="login_form.html"> Вхід </a> 
+        <a href="registration_form.html"> Реєстрація </a>
+        <a href="feedback_form.html"> Зворотній зв’язок </a>
+</nav>
+
+    <header>
+        <h3>Dior – втілення вічної елегантності</h3>
+        <p class="feedHeaderText">Пориньте у світ Dior і відкрийте гармонію краси в кожному моменті</p>
+    </header>
+
+
+
+    <main>
+        <form action="#" method="post" target="_self">
+
+            <fieldset>
+
+                <legend> Персональні дані </legend>
+                <label for="firstName"> Введіть ім’я </label>
+                <input type="text" name="firstName"> <br>
+
+                <label for="lastName"> Введіть прізвище </label>
+                <input type="text" name="lastName"> <br>
+
+                <label for="email"> Введіть адресу електронної пошти </label>
+                <input type="email" id="email"  name="email"> <br>
+
+                <label for="tel"> Введіть номер телефону </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678"> <br>
+                <small>Format: 123-45-678</small><br><br>
+
+                <button type="submit"> Надіслати </button>
+
+
+
+
+
+            </fieldset>
+
+            <br> <br>
+
+            <fieldset>
+
+                <legend> Спосіб зв’язку </legend>
+
+                <label for="phone_contact"> Номер телефону </label>
+                <input type="radio" id="phone_contact" name="contact" value="phone"> <br>
+
+                <label for="email_contact">Електронна пошта</label>
+                <input type="radio" id="email_contact" name="contact" value="email"> <br><br>
+    
+                <label for="file"> Додати зображення (необов'язково):</label><br>
+                <input type="file" id="file" name="file" accept="image/*"><br><br>
+    
+                <button type="submit">Надіслати</button>
+            </fieldset> <br> <br>
+
+    
+            <fieldset>
+
+                <legend>Поділіться думкою:</legend>
+
+                <label for="message"> Повідомлення:</label> <br>
+                <textarea id="message" name="message" placeholder="Enter your message here..."></textarea> <br> <br>
+    
+                <legend>Тип повідомлення:</legend>
+
+                <select> <br>
+
+                    <option> Обрати </option> <br>
+                    <option> Питання </option>
+                    <option> Побажання </option>
+                    <option> Скарга </option>
+                    <option> Інше </option>
+
+                </select>
+
+            </fieldset> 
+
+    
+
+            
+        
+        
+        
+        
+    
+        </form>
+
+
+
+    </main>
+
+    <p>2025© DIOR</p>
+
+
+</body>
+
+
+
+
+</html>
